@@ -31,6 +31,6 @@
     "phpstan/phpstan": "0.12.*",
     "phpstan/phpstan-phpunit": "0.12.*",
     "phpunit/phpunit": "9.5.*",
-    "symplify/easy-coding-standard": "9.1.*"
+    "symplify/easy-coding-standard": "9.2.*"
   }
 }
