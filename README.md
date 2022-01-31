@@ -1,0 +1,1 @@
+# cqrs-messenger-bundle
