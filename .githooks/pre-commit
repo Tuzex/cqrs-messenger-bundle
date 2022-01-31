@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## Static Analyse
+
+docker run --rm -v $PWD:/app -w /app -u $UID:$UID tuzex/php:8.1-cli vendor/bin/phpstan analyse -c phpstan.neon --memory-limit=-1
+
+## Coding standards
+
+docker run --rm -v $PWD:/app -w /app -u $UID:$UID tuzex/php:8.1-cli vendor/bin/ecs check -c ecs.php
+
+

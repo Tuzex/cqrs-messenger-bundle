@@ -1,0 +1,5 @@
+#!/bin/bash
+
+## Composer validation
+
+docker run --rm -v $PWD:/app -w /app -u $UID:$UID tuzex/composer:2 composer validate --no-check-all --strict
