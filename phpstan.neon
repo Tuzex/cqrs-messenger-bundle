@@ -1,0 +1,17 @@
+parameters:
+  level: max
+  paths:
+    - src
+    - tests
+
+  checkGenericClassInNonGenericObjectType: false
+  checkMissingIterableValueType: false
+
+#  ignoreErrors:
+#    - '#^Access to undefined constant.*\\(File|Http)(\\.*){0,1}\\\w+::\w+\.$#'
+#    - '#^Access to an undefined property.*\\(File|Http)(\\.*){0,1}\\\w+::(\$value|\$name)\.$#'
+#    - '#^Call to an undefined static method.*\\(File|Http)(\\.*){0,1}\\\w+::(from|tryFrom|cases)\(\)\.$#'
+
+includes:
+  - vendor/phpstan/phpstan-phpunit/extension.neon
+  - vendor/phpstan/phpstan-phpunit/rules.neon
