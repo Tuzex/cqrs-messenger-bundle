@@ -25,7 +25,7 @@
     "require": {
         "php": "8.*",
         "symfony/framework-bundle": "4.3.*|4.4.*|5.*|6.*",
-        "tuzex/cqrs-messenger": "dev-master"
+        "tuzex/cqrs-messenger": "0.2.0"
     },
     "require-dev": {
         "phpstan/phpstan": "1.4.*",
